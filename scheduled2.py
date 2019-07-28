@@ -46,7 +46,7 @@ def sendMessage(slack_client, msg):
     logging.debug(updateMsg)
 
 if __name__ == "__main__":
-    SLACK_BOT_TOKEN = os.environ['SLACK_BOT_TOKEN']
+    SLACK_BOT_TOKEN = "xoxb-700821962085-709790579735-7a2RLf4jW3Mx8BRaPOFb1ueB"
     slack_client = SlackClient(SLACK_BOT_TOKEN)
     logging.debug("authorized slack client")
 
